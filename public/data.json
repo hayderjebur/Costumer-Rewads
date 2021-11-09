@@ -70,7 +70,7 @@
   },
   {
     "account": "ACD134",
-    "name": "Nancy Drew",
+    "name": "Bryan Loyd",
     "purchaseHistory": [
       {
         "month": "January",
@@ -139,7 +139,7 @@
   },
   {
     "account": "ACD134",
-    "name": "Mary Drew",
+    "name": "Brandon Ward",
     "purchaseHistory": [
       {
         "month": "January",
@@ -208,7 +208,145 @@
   },
   {
     "account": "ACD134",
-    "name": "James Drew",
+    "name": "James Murphy",
+    "purchaseHistory": [
+      {
+        "month": "January",
+        "transitions": [
+          {
+            "date": "01/01/20",
+            "purchase": 130
+          },
+          {
+            "date": "01/03/20",
+            "purchase": 185
+          },
+          {
+            "date": "01/15/20",
+            "purchase": 59
+          },
+          {
+            "date": "01/23/20",
+            "purchase": 330
+          }
+        ]
+      },
+      {
+        "month": "February",
+        "transitions": [
+          {
+            "date": "02/01/20",
+            "purchase": 11
+          },
+          {
+            "date": "02/03/20",
+            "purchase": 70
+          },
+          {
+            "date": "02/15/20",
+            "purchase": 340
+          },
+          {
+            "date": "02/23/20",
+            "purchase": 710
+          }
+        ]
+      },
+      {
+        "month": "March",
+        "transitions": [
+          {
+            "date": "03/01/20",
+            "purchase": 150
+          },
+          {
+            "date": "03/03/20",
+            "purchase": 200
+          },
+          {
+            "date": "03/15/20",
+            "purchase": 100
+          },
+          {
+            "date": "03/23/20",
+            "purchase": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "account": "ACD134",
+    "name": "Hayder Juber",
+    "purchaseHistory": [
+      {
+        "month": "January",
+        "transitions": [
+          {
+            "date": "01/01/20",
+            "purchase": 130
+          },
+          {
+            "date": "01/03/20",
+            "purchase": 185
+          },
+          {
+            "date": "01/15/20",
+            "purchase": 59
+          },
+          {
+            "date": "01/23/20",
+            "purchase": 330
+          }
+        ]
+      },
+      {
+        "month": "February",
+        "transitions": [
+          {
+            "date": "02/01/20",
+            "purchase": 11
+          },
+          {
+            "date": "02/03/20",
+            "purchase": 70
+          },
+          {
+            "date": "02/15/20",
+            "purchase": 340
+          },
+          {
+            "date": "02/23/20",
+            "purchase": 710
+          }
+        ]
+      },
+      {
+        "month": "March",
+        "transitions": [
+          {
+            "date": "03/01/20",
+            "purchase": 150
+          },
+          {
+            "date": "03/03/20",
+            "purchase": 200
+          },
+          {
+            "date": "03/15/20",
+            "purchase": 100
+          },
+          {
+            "date": "03/23/20",
+            "purchase": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "account": "ACD134",
+    "name": "Jif Drew",
     "purchaseHistory": [
       {
         "month": "January",

@@ -5,9 +5,12 @@ import TotalPoints from '../TotalPoints';
 
 export default function CostumerItem({ user }) {
   return (
-    <div className='card p-5 d-flex justify-content-center align-items-center'>
+    <div
+      style={{ width: '24rem' }}
+      className='card p-5 d-flex justify-content-center align-items-center'
+    >
       <div className='card-body'>
-        <h5 className='card-title'>Costumer Name: {user.name}</h5>
+        <h5 className='card-title'>Costumer: {user.name}</h5>
       </div>
       {user.purchaseHistory.map((purchaseByMonth) => {
         const monthName = purchaseByMonth.month;
