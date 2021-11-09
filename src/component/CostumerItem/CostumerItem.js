@@ -17,7 +17,7 @@ const CostumerItem = ({ user }) => {
         );
 
         return (
-          <div className='d-flex justify-content-center m-3' key={uuidv4()}>
+          <div className='d-flex justify-content-center m-2' key={uuidv4()}>
             <p>
               {monthName}: <strong>{totalPointsPerMonth}</strong> Points
             </p>
