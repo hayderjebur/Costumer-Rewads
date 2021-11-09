@@ -2,13 +2,11 @@ import React from 'react';
 import { calculateTotalPointsPerMonth } from '../../utils';
 import { v4 as uuidv4 } from 'uuid';
 import TotalPoints from '../TotalPoints';
+import './costumerItem.css';
 
-export default function CostumerItem({ user }) {
+const CostumerItem = ({ user }) => {
   return (
-    <div
-      style={{ width: '24rem' }}
-      className='card p-5 d-flex justify-content-center align-items-center'
-    >
+    <div className='card d-flex justify-content-center align-items-center p-5 width23'>
       <div className='card-body'>
         <h5 className='card-title'>Costumer: {user.name}</h5>
       </div>
@@ -31,4 +29,5 @@ export default function CostumerItem({ user }) {
       </div>
     </div>
   );
-}
+};
+export default CostumerItem;

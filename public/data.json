@@ -12,15 +12,15 @@
           },
           {
             "date": "01/03/20",
-            "purchase": 195
+            "purchase": 0
           },
           {
             "date": "01/15/20",
-            "purchase": 49
+            "purchase": 0
           },
           {
             "date": "01/23/20",
-            "purchase": 63
+            "purchase": 0
           }
         ]
       },
@@ -69,7 +69,7 @@
     ]
   },
   {
-    "account": "ACD134",
+    "account": "ACD3kwiw134",
     "name": "Bryan Loyd",
     "purchaseHistory": [
       {
@@ -138,7 +138,7 @@
     ]
   },
   {
-    "account": "ACD134",
+    "account": "ACD3jn4134",
     "name": "Brandon Ward",
     "purchaseHistory": [
       {
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "account": "ACD134",
+    "account": "ACD94rreq134",
     "name": "James Murphy",
     "purchaseHistory": [
       {
@@ -276,7 +276,7 @@
     ]
   },
   {
-    "account": "ACD134",
+    "account": "ACDsfdg134",
     "name": "Hayder Juber",
     "purchaseHistory": [
       {
@@ -345,7 +345,7 @@
     ]
   },
   {
-    "account": "ACD134",
+    "account": "ACD1345343",
     "name": "Jif Drew",
     "purchaseHistory": [
       {

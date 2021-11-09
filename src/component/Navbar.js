@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <nav className='navbar navbar-light bg-dark'>
+    <nav className='navbar navbar-dark bg-primary'>
       <a className='navbar-brand' href='/'>
-        Navbar
+        Costumer Rewards
       </a>
     </nav>
   );

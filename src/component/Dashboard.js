@@ -1,7 +1,7 @@
 import React from 'react';
-import CostumerItem from '../CostumerItem/CostumerItem';
+import CostumerItem from './CostumerItem/CostumerItem';
 
-export default function Dashboard({ costumers }) {
+const Dashboard = ({ costumers }) => {
   return (
     <div className='container '>
       <div className='row'>
@@ -13,4 +13,5 @@ export default function Dashboard({ costumers }) {
       </div>
     </div>
   );
-}
+};
+export default Dashboard;

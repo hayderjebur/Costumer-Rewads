@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { calculateTotalPointsPerMonth } from '../utils';
 
-export default function TotalPoints({ user }) {
+const TotalPoints = ({ user }) => {
   let pointsPerMonth = user.purchaseHistory.map((purchaseByMonth) => {
     const totalPointsPerMonth = calculateTotalPointsPerMonth(
       purchaseByMonth.transitions
@@ -11,11 +11,18 @@ export default function TotalPoints({ user }) {
   });
   return (
     <div>
-      Total:
-      {pointsPerMonth.reduce(
-        (previousValue, currentValue) => previousValue + currentValue,
-        0
-      )}
+      <span>Total points: </span>
+      <strong>
+        {useMemo(
+          () =>
+            pointsPerMonth.reduce(
+              (previousValue, currentValue) => previousValue + currentValue,
+              0
+            ),
+          [pointsPerMonth]
+        )}
+      </strong>
     </div>
   );
-}
+};
+export default TotalPoints;
