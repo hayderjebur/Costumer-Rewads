@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Navbar from './component/Navbar';
 import Dashboard from './component/Dashboard';
-import './App.css';
 
 function App() {
   const [costumers, setCostumers] = useState([]);
