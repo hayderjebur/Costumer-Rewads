@@ -1,17 +1,18 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+npm install
+npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### This app bulit with create-react-app and bootstraps framework.
+### This app bulit with webpack, babel, react and bootstraps framework.
 ### Run npm install in root folder to install all dependencies.
 ### Check out the data in public folder data.json.
 ### It responsive I attached images to show how it's looks like.
